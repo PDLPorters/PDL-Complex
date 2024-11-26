@@ -1,3 +1,41 @@
 Complex.c
 Complex.pm
 Complex.xs
+
+*.o
+*.obj
+*.so
+*.dylib
+*.bundle
+
+_eumm
+pm_to_blib
+blib
+*.bs
+Makefile
+Makefile.aperl
+MYMETA.yml
+MYMETA.json
+MANIFEST.bak
+
+# Editor temp files
+*~
+#   VIM
+.*.swp
+
+# Strange mac files
+._*
+
+# Devel::Cover files
+*.gcda
+*.gcno
+*.gcov
+cover_db/
+
+nytprof*
+
+# Directory specific build files
+# These can either be in the specific directories or specified
+# with full patch in the top level directory (as here).
+
+pp-*.c
