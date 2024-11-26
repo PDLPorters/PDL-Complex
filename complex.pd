@@ -19,7 +19,7 @@ pp_addpm {At => 'Top'}, <<'EOD';
 use strict;
 use warnings;
 use Carp;
-our $VERSION = '2.009';
+our $VERSION = '2.010';
 
 =encoding utf8
 
