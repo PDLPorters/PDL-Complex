@@ -19,3 +19,4 @@ Complex\.xs
 \.o$
 \.bs$
 MANIFEST\.bak
+pp-.*\.c$
